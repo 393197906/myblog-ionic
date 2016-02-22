@@ -1,0 +1,15 @@
+<ion-view title="{{title}}" hide-back-button="true">
+	<ion-nav-buttons side="left">
+		<button class="button" menu-toggle='left'> <i class="icon ion-navicon-round"></i>
+		</button>
+	</ion-nav-buttons>
+	<!-- <div class="bar bar-subheader">
+		<div class="title">fsfsd</div>
+	</div> -->
+	<ion-content>
+		<!-- 下拉刷新 -->
+		<ion-refresher pulling-text="下拉刷新" on-refresh="doRefresh()"></ion-refresher>
+		
+	{{title}}
+	</ion-content>
+</ion-view>
